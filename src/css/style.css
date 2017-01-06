@@ -1,0 +1,30 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    overflow: none;
+}
+
+.imp-canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* if you want to use HTMLLinkButton, you need one of these after your <canvas> */
+.imp-link-box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+/* Custom styles for HTMLLinkButton */
+.imp-link {
+    pointer-events: all;
+}
